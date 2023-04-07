@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Times New Roman", Times, serif;
+    background: whitesmoke;
+}
+
+.container {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: center;
+    column-gap: 2em;
+}
+
+.book {
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.book img {
+    height: 250px;
+    object-fit: cover;
+}
