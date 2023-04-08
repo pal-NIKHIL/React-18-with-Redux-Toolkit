@@ -9,15 +9,22 @@ body {
     background: whitesmoke;
 }
 
+.main{
+    max-width: 1180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
 .container {
     margin: 20px;
     display: flex;
     flex-direction: row;
     padding: 10px;
-    justify-content: center;
     column-gap: 2em;
 }
-
+button:hover{
+    background: #e77246;
+}
 .book {
     padding: 20px;
     background-color: white;
