@@ -25,14 +25,14 @@ body {
 button:hover{
     background: #e77246;
 }
-.book {
+.movie {
     padding: 20px;
     background-color: white;
     border-radius: 20px;
     text-align: center;
 }
 
-.book img {
+.movie img {
     height: 250px;
     object-fit: cover;
 }
